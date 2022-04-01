@@ -3,6 +3,10 @@
 // APP SUPPORT
 .App {
   text-align: center;
+
+  p {
+    width: 80%;
+  }
 }
 
 .App-logo {
@@ -30,6 +34,10 @@
 // }
 
 // SECTIONS
+
+.mybutton {
+  margin: 14px;
+}
 
 .App-header {
   background-color: #0162a8;
@@ -79,6 +87,15 @@
   color: white;
 }
 
-.mybutton {
-  margin: 14px;
+#ipi {
+  // background-color: #0162a8;
+  background-color: goldenrod;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
+

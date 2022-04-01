@@ -5,6 +5,7 @@ import Answer from './Answer';
 import Question from './Question';
 import AnotherAnswer from './AnotherAnswer';
 import Questions from './Questions';
+import Ipi from './Ipi';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Questions />
       </header>
 
+      <Ipi />
       <Question />
       <Answer />
       <AnotherAnswer />
