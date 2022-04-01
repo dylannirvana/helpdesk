@@ -99,3 +99,46 @@
   color: white;
 }
 
+#estate {
+  // background-color: #0162a8;
+  background-color: darkslateblue;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#copyright {
+  // background-color: #0162a8;
+  background-color: burlywood;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#royalties {
+  // background-color: #0162a8;
+  background-color: forestgreen;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.copyright {
+  width: 40%;
+}
+
+.royalties {
+  width: 60%;
+}

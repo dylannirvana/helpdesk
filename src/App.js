@@ -6,6 +6,9 @@ import Question from './Question';
 import AnotherAnswer from './AnotherAnswer';
 import Questions from './Questions';
 import Ipi from './Ipi';
+import Estate from './Estate';
+import Copyright from './Copyright';
+import Royalties from './Royalties';
 
 
 function App() {
@@ -16,6 +19,9 @@ function App() {
       </header>
 
       <Ipi />
+      <Estate />
+      <Copyright />
+      <Royalties />
       <Question />
       <Answer />
       <AnotherAnswer />
