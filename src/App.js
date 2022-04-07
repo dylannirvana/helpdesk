@@ -18,13 +18,16 @@ function App() {
         <Questions />
       </header>
 
-      <Ipi />
+      {/* What is BMI? What does BMI do? */}
+      {/* What is BMI? What does BMI do? */}
+
+      {/* <Ipi />
       <Estate />
       <Copyright />
       <Royalties />
       <Question />
       <Answer />
-      <AnotherAnswer />
+      <AnotherAnswer /> */}
 
     </div>
   );
