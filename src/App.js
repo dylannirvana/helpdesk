@@ -9,13 +9,15 @@ import Ipi from './Ipi';
 import Estate from './Estate';
 import Copyright from './Copyright';
 import Royalties from './Royalties';
+import Topics from './Topics';
 
 
 function App() {
   return (
     <div className="App">
       <header id='home' className="App-header">
-        <Questions />
+        {/* <Questions /> */}
+        <Topics />
       </header>
 
       {/* What is BMI? What does BMI do? */}

@@ -33,11 +33,36 @@
 //   }
 // }
 
-// SECTIONS
+// BOOTSTRAP OVERRIDES
 
+.accordion {
+  justify-content: center;
+}
+
+.accordion-collapse {
+  background-color: red;
+  
+}
+
+.accordion-item {
+  background-color: #fff;
+  margin: 14px;
+  width: 300px;
+}
+
+.accordion-button {
+  color: #6c757d !important;
+  background-color: #fff !important;
+  border-color: #6c757d;
+  font-size: 20px !important;
+  font-weight: 600;
+}
+
+// SECTIONS
 .mybutton {
   margin: 14px;
 }
+
 
 .App-header {
   background-color: #0162a8;
