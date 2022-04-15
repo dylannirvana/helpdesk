@@ -4,9 +4,9 @@
 .App {
   text-align: center;
 
-  p {
-    width: 80%;
-  }
+  // p {
+  //   width: 80%;
+  // }
 }
 
 .App-logo {
@@ -39,26 +39,33 @@
   justify-content: center;
 }
 
-.accordion-collapse {
-  background-color: red;
-  
-}
+
 
 .accordion-item {
-  background-color: #fff;
-  margin: 14px;
-  width: 300px;
+  background-color: transparent;
+  // margin: 14px;
+  // width: 300px;
+
+  // .accordion-collapse .collapse .show {
+  //   // background-color: red !important;
+  //   // width: 600px;
+  // }
 }
 
 .accordion-button {
-  color: #6c757d !important;
-  background-color: #fff !important;
+  color: #333 !important;
+  background-color: rgba($color: #fff, $alpha: 0.5) !important;
   border-color: #6c757d;
   font-size: 20px !important;
   font-weight: 600;
 }
 
 // SECTIONS
+
+.mycontainer {
+  width: 80%;
+}
+
 .mybutton {
   margin: 14px;
 }

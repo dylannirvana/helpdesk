@@ -23,13 +23,13 @@ function App() {
       {/* What is BMI? What does BMI do? */}
       {/* What is BMI? What does BMI do? */}
 
-      {/* <Ipi />
+      <Ipi />
       <Estate />
       <Copyright />
       <Royalties />
       <Question />
       <Answer />
-      <AnotherAnswer /> */}
+      <AnotherAnswer />
 
     </div>
   );
