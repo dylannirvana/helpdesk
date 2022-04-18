@@ -34,12 +34,11 @@
 // }
 
 // BOOTSTRAP OVERRIDES
-
 .accordion {
   justify-content: center;
 }
 
-
+// $carousel-transition-duration: 2s;
 
 .accordion-item {
   background-color: transparent;
@@ -60,10 +59,50 @@
   font-weight: 600;
 }
 
-// SECTIONS
+.carousel {
+  width: 100%;
+}
 
+// .carousel-inner {
+//   // padding-left: 10%;
+//   // padding-right: 10%;
+// }
+
+// CAROUSEL 
+.carousel1 {
+  background-color: plum;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+
+#slide1 {
+  // background-color: seashell;
+
+}
+
+#slide2 {
+  // background-color: lightcoral;
+
+}
+
+#slide3 {
+  // background-color: wheat;
+
+}
+
+// SECTIONS
 .mycontainer {
   width: 80%;
+}
+
+.myaccordion {
+  margin: 14px;
 }
 
 .mybutton {
@@ -94,6 +133,82 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+#question1 {
+  // background-color: #0162a8;
+  background-color: #f01e1d;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#question2 {
+  // background-color: #0162a8;
+  background-color: pink;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#question3 {
+  // background-color: #0162a8;
+  background-color: palevioletred;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#question4 {
+  // background-color: #0162a8;
+  background-color: peru;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#question5 {
+  // background-color: #0162a8;
+  background-color: plum;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #answer {
   // background-color: #0162a8;

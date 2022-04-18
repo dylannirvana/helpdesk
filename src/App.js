@@ -1,35 +1,30 @@
 // import logo from './logo.svg';
 import './App.scss';
+import Carousel1 from './test/Carousel1';
+import Question1 from './test/Question1';
+import Question2 from './test/Question2';
+import Question3 from './test/Question3';
+import Question4 from './test/Question4';
+import Question5 from './test/Question5';
 // import { Button } from 'react-bootstrap';
-import Answer from './Answer';
-import Question from './Question';
-import AnotherAnswer from './AnotherAnswer';
-import Questions from './Questions';
-import Ipi from './Ipi';
-import Estate from './Estate';
-import Copyright from './Copyright';
-import Royalties from './Royalties';
-import Topics from './Topics';
+
+import TestTopics from './test/TestTopics';
 
 
 function App() {
   return (
     <div className="App">
       <header id='home' className="App-header">
-        {/* <Questions /> */}
-        <Topics />
+        {/* <Topics /> */}
+        <TestTopics />
       </header>
 
-      {/* What is BMI? What does BMI do? */}
-      {/* What is BMI? What does BMI do? */}
-
-      <Ipi />
-      <Estate />
-      <Copyright />
-      <Royalties />
-      <Question />
-      <Answer />
-      <AnotherAnswer />
+    <Question1 />
+    <Question2 />
+    <Question3 />
+    <Carousel1 />
+    <Question4 />
+    <Question5 />
 
     </div>
   );
