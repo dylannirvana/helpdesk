@@ -9,22 +9,22 @@ function Carousel1() {
         <Carousel indicators={false} interval={null} >
             <Carousel.Item id='slide1' >
                 
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                <Button variant="secondary" href='#top' >This is not my beautiful wife</Button>{' '}      
+                <h1>First slide label</h1>
+                <p>Occaecat eu occaecat ad voluptate consectetur ipsum aliquip quis labore ex ullamco. Fugiat id est exercitation labore laboris. Proident ullamco laborum ut cillum. Commodo mollit nisi pariatur occaecat et ad magna ea enim elit velit fugiat. Dolore excepteur aliquip veniam aute et deserunt magna Lorem cillum id. Qui laborum in ad amet..</p>
+                {/* <Button variant="secondary" href='#top' >This is not my beautiful wife</Button>{' '}       */}
 
             </Carousel.Item>
             <Carousel.Item id='slide2' >
               
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <Button variant="secondary" href='#top' >This is not my beautiful wife</Button>{' '}      
+                <h1>Second slide label</h1>
+                <p>Incididunt elit laborum enim velit laborum nostrud id fugiat qui. Veniam pariatur enim non reprehenderit nisi laborum laboris amet dolore commodo adipisicing dolore est exercitation. Ipsum in qui incididunt exercitation eu sunt excepteur. Commodo ad nulla proident eu et.</p>
+                {/* <Button variant="secondary" href='#top' >This is not my beautiful wife</Button>{' '}       */}
             
             </Carousel.Item>
             <Carousel.Item id='slide3' >
                 
-                <h3>Third slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <h1>Third slide label</h1>
+                <p>Aliquip velit anim occaecat culpa aliquip qui. Do dolor adipisicing mollit ea excepteur deserunt irure consectetur occaecat est. Ad nisi ullamco commodo laborum. Occaecat officia ut veniam commodo do minim proident mollit nisi ad exercitation minim.</p>
                 <Button variant="secondary" href='#top' >This is not my beautiful wife</Button>{' '}      
 
             </Carousel.Item>

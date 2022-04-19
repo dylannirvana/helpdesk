@@ -9,22 +9,26 @@ import Question5 from './test/Question5';
 // import { Button } from 'react-bootstrap';
 
 import TestTopics from './test/TestTopics';
+import Topics from './Topics';
 
 
 function App() {
   return (
     <div className="App">
       <header id='home' className="App-header">
-        {/* <Topics /> */}
         <TestTopics />
+        {/* <Topics /> */}
       </header>
 
-    <Question1 />
+    {/* THESE ARE THE TEST QUESTIONS */}
+    {/* <Question1 />
     <Question2 />
-    <Question3 />
+    <Question3 /> */}
     <Carousel1 />
-    <Question4 />
-    <Question5 />
+    {/* <Question4 />
+    <Question5 /> */}
+
+    {/* HERE HOWEVER ARE THE ACTUAL QUESTIONS */}
 
     </div>
   );

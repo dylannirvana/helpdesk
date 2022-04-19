@@ -2,6 +2,8 @@
 import './App.scss';
 import { Accordion, Button } from 'react-bootstrap';
 
+// NOTE: Using the tee command. tee CpCheck.jsCpCopy.js CpIpi.js CpRoy.js CpAdv.js < Answer.js 
+// Single source multiple destination. cp doesn't do that. Note the reverse syntax
 
 function Topics() {
   return (
