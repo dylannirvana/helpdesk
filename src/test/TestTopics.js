@@ -12,9 +12,9 @@ function TestTopics() {
               <Accordion.Item className='' eventKey='0'>
                 <Accordion.Header>You may find yourself living in a shotgun shack</Accordion.Header>
                 <Accordion.Body>
-                <Button variant="secondary" className="d-grid gap-2 mybutton orientation" size="lg" href='#question2' >Behind the wheel of a large automobile</Button>{' '}      
-                <Button variant="secondary" className="d-grid gap-2 mybutton orientation" size="lg" href='#question3' >With a beautiful house</Button>{' '}      
-                <Button variant="secondary" className="d-grid gap-2 mybutton orientation" size="lg" href='#question1' >With a beautiful wife</Button>{' '}      
+                <Button variant="secondary" className="d-grid gap-2 mybutton orientation" size="lg" href='#question1' >Behind the wheel of a large automobile</Button>{' '}      
+                <Button variant="secondary" className="d-grid gap-2 mybutton orientation" size="lg" href='#question2' >With a beautiful house</Button>{' '}      
+                <Button variant="secondary" className="d-grid gap-2 mybutton orientation" size="lg" href='#question3' >With a beautiful wife</Button>{' '}      
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>

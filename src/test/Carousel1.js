@@ -25,7 +25,9 @@ function Carousel1() {
                 
                 <h1>Remove the water at the bottom of the ocean</h1>
                 <p>Aliquip velit anim occaecat culpa aliquip qui. Do dolor adipisicing mollit ea excepteur deserunt irure consectetur occaecat est. Ad nisi ullamco commodo laborum. Occaecat officia ut veniam commodo do minim proident mollit nisi ad exercitation minim.</p>
-                <Button variant="secondary" href='#home' >This is not my beautiful wife</Button>{' '}      
+                <Button variant="secondary" href='#home' >This is not my beautiful wife</Button>{' '} <br />
+                <Button variant="outline-secondary" className='mybutton' href='#question4' >Next</Button>{' '}      
+     
 
             </Carousel.Item>
         </Carousel>
