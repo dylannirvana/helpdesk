@@ -15,18 +15,18 @@ import Topics from './Topics';
 function App() {
   return (
     <div className="App">
-      <header id='home' className="App-header">
+      <header id='home' className="section">
         <TestTopics />
         {/* <Topics /> */}
       </header>
 
     {/* THESE ARE THE TEST QUESTIONS */}
-    {/* <Question1 />
+    <Question1 />
     <Question2 />
-    <Question3 /> */}
+    <Question3 />
     <Carousel1 />
-    {/* <Question4 />
-    <Question5 /> */}
+    <Question4 />
+    <Question5 />
 
     {/* HERE HOWEVER ARE THE ACTUAL QUESTIONS */}
 

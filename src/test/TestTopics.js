@@ -5,28 +5,28 @@ import { Accordion, Button } from 'react-bootstrap';
 
 function TestTopics() {
   return (
-    <div className='mycontainer' id='top' >
+    <div className='mycontainer' >
         <h1>Have any questions?</h1>
             {/* ORIENTATION */}
             <Accordion className='myaccordion' >
               <Accordion.Item className='' eventKey='0'>
-                <Accordion.Header>Basic questions</Accordion.Header>
+                <Accordion.Header>You may find yourself living in a shotgun shack</Accordion.Header>
                 <Accordion.Body>
-                <Button variant="secondary" className="d-grid gap-2 mybutton orientation" size="lg" href='#question1' >Who am I?</Button>{' '}      
-                <Button variant="secondary" className="d-grid gap-2 mybutton orientation" size="lg" href='#question2' >Why am I here?</Button>{' '}      
-                <Button variant="secondary" className="d-grid gap-2 mybutton orientation" size="lg" href='#question3' >Where I am going?</Button>{' '}      
+                <Button variant="secondary" className="d-grid gap-2 mybutton orientation" size="lg" href='#question2' >Behind the wheel of a large automobile</Button>{' '}      
+                <Button variant="secondary" className="d-grid gap-2 mybutton orientation" size="lg" href='#question3' >With a beautiful house</Button>{' '}      
+                <Button variant="secondary" className="d-grid gap-2 mybutton orientation" size="lg" href='#question1' >With a beautiful wife</Button>{' '}      
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
 
             <Accordion className='myaccordion' >
               <Accordion.Item className='' eventKey='0'>
-                <Accordion.Header>More basic questions</Accordion.Header>
+                <Accordion.Header>Letting the days go by</Accordion.Header>
                 <Accordion.Body>
                   {/* REGISTRATION AND CATALOG */}
-                  <Button variant="secondary" className="d-grid gap-2 mybutton registration" size="lg" href='#carousel1' >Where have I been?</Button>{' '}      
-                  <Button variant="secondary" className="d-grid gap-2 mybutton registration" size="lg" href='#question4' >Who are you?</Button>{' '}      
-                  <Button variant="secondary" className="d-grid gap-2 mybutton registration" size="lg" href='#question5' >Why are you here?</Button>{' '}   
+                  <Button variant="secondary" className="d-grid gap-2 mybutton registration" size="lg" href='#carousel1' >How do I work this?</Button>{' '}      
+                  <Button variant="secondary" className="d-grid gap-2 mybutton registration" size="lg" href='#question4' >This is not my beautiful house!</Button>{' '}      
+                  <Button variant="secondary" className="d-grid gap-2 mybutton registration" size="lg" href='#question5' >This is not my beautiful wife!</Button>{' '}   
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
