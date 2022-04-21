@@ -41,13 +41,13 @@ function Topics() {
                 <Accordion.Header>Copyright and Royalties</Accordion.Header>
                 <Accordion.Body>
                   {/* COPYRIGHT AND ROYALTIES */}
-                  <Button variant="secondary" className="d-grid gap-2 mybutton copyrights" size="lg" href='#ipi' >What are Performance Royalties</Button>{' '}   
-                  <Button variant="secondary" className="d-grid gap-2 mybutton copyrights" size="lg" href='#ipi' >Why haven't I gotten paid?</Button>{' '}   
-                  <Button variant="secondary" className="d-grid gap-2 mybutton copyrights" size="lg" href='#ipi' >Do you send checks?</Button>{' '}   
-                  <Button variant="secondary" className="d-grid gap-2 mybutton copyrights" size="lg" href='#ipi' >It's all about Copyright</Button>{' '}   
-                  <Button variant="secondary" className="d-grid gap-2 mybutton copyrights" size="lg" href='#ipi' >What is my IPI number?</Button>{' '}   
-                  <Button variant="secondary" className="d-grid gap-2 mybutton copyrights" size="lg" href='#ipi' >What are Royalties?</Button>{' '}   
-                  <Button variant="secondary" className="d-grid gap-2 mybutton copyrights" size="lg" href='#ipi' >Can I get an advance?</Button>{' '} 
+                  <Button variant="secondary" className="d-grid gap-2 mybutton copyrights" size="lg" href='#copyrightperformance' >What are Performance Royalties</Button>{' '}   
+                  <Button variant="secondary" className="d-grid gap-2 mybutton copyrights" size="lg" href='#copyrightpaid' >Why haven't I gotten paid?</Button>{' '}   
+                  <Button variant="secondary" className="d-grid gap-2 mybutton copyrights" size="lg" href='#copyrightcheck' >Do you send checks?</Button>{' '}   
+                  <Button variant="secondary" className="d-grid gap-2 mybutton copyrights" size="lg" href='#copyrightabout' >It's all about Copyright</Button>{' '}   
+                  <Button variant="secondary" className="d-grid gap-2 mybutton copyrights" size="lg" href='#copyrightipi' >What is my IPI number?</Button>{' '}   
+                  <Button variant="secondary" className="d-grid gap-2 mybutton copyrights" size="lg" href='#copyrightroyalty' >What are Royalties?</Button>{' '}   
+                  <Button variant="secondary" className="d-grid gap-2 mybutton copyrights" size="lg" href='#copyrightadvance' >Can I get an advance?</Button>{' '} 
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>

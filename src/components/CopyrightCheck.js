@@ -1,16 +1,15 @@
-// import logo from './logo.svg';
-import './App.scss';
 import { Button } from 'react-bootstrap';
 
-
-function Answer() {
+function CopyrightCheck() {
   return (
-      <div id='answer'>
+      <div id='copyrightcheck' className='section' >
         <h1>Here is an answer.</h1>
         <p>Duis Lorem incididunt anim quis.</p>
-        <Button variant="secondary" href='#anotheranswer' >Living in a shotgun shack.</Button>{' '}
+        <Button variant="secondary" href='#home' >Living in a shotgun shack.</Button>{' '}
+        <Button variant="outline-secondary" className='mybutton' href='#copyrightabout' >Next</Button>{' '}      
+
       </div>
   );
 }
 
-export default Answer;
+export default CopyrightCheck;
