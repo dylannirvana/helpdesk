@@ -5,7 +5,7 @@ import { Button } from 'react-bootstrap';
 
 function Question3() {
   return (
-      <div id='question3'>
+      <div id='question3' className='section' >
         <h1>Here is another answer.</h1>
         <p>Duis Lorem incididunt anim quis.</p>
         <h3>Back to the top</h3>
