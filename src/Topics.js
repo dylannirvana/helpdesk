@@ -57,9 +57,9 @@ function Topics() {
                 <Accordion.Header>Businesses Requesting a BMI License</Accordion.Header>
                 <Accordion.Body>
                   {/* LICENSORS */}
-                  <Button variant="secondary" className="d-grid gap-2 mybutton licensors" size="lg" href='#ipi' >Who pays BMI?</Button>{' '} 
-                  <Button variant="secondary" className="d-grid gap-2 mybutton licensors" size="lg" href='#ipi' >ISRC vs ISWC</Button>{' '} 
-                  <Button variant="secondary" className="d-grid gap-2 mybutton licensors" size="lg" href='#ipi' >Uauthorized use</Button>{' '} 
+                  <Button variant="secondary" className="d-grid gap-2 mybutton licensors" size="lg" href='#licensepays' >Who pays BMI?</Button>{' '} 
+                  <Button variant="secondary" className="d-grid gap-2 mybutton licensors" size="lg" href='#licenseisrc' >ISRC vs ISWC</Button>{' '} 
+                  <Button variant="secondary" className="d-grid gap-2 mybutton licensors" size="lg" href='#licenseunauth' >Uauthorized use</Button>{' '} 
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
@@ -69,10 +69,10 @@ function Topics() {
                 <Accordion.Header>Writer and Publisher</Accordion.Header>
                 <Accordion.Body>
                   {/* WRITER AND PUBLISHER */}
-                  <Button variant="secondary" className="d-grid gap-2 mybutton publisher" size="lg" href='#ipi' >Do I need a Publisher?</Button>{' '} 
-                  <Button variant="secondary" className="d-grid gap-2 mybutton publisher" size="lg" href='#ipi' >The Music Modernization Act</Button>{' '} 
-                  <Button variant="secondary" className="d-grid gap-2 mybutton publisher" size="lg" href='#ipi' >Foreign Royalties (Neighbouring Rights)</Button>{' '} 
-                  <Button variant="secondary" className="d-grid gap-2 mybutton publisher" size="lg" href='#ipi' >Register as a BMI Publisher</Button>{' '} 
+                  <Button variant="secondary" className="d-grid gap-2 mybutton publisher" size="lg" href='#publisherneed' >Do I need a Publisher?</Button>{' '} 
+                  <Button variant="secondary" className="d-grid gap-2 mybutton publisher" size="lg" href='#publishermma' >The Music Modernization Act</Button>{' '} 
+                  <Button variant="secondary" className="d-grid gap-2 mybutton publisher" size="lg" href='#publisherforeign' >Foreign Royalties (Neighbouring Rights)</Button>{' '} 
+                  <Button variant="secondary" className="d-grid gap-2 mybutton publisher" size="lg" href='#publisherregister' >Register as a BMI Publisher</Button>{' '} 
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>

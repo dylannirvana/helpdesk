@@ -1,16 +1,15 @@
-// import logo from './logo.svg';
-import './App.scss';
 import { Button } from 'react-bootstrap';
 
-
-function Answer() {
+function LicenseUnauth() {
   return (
-      <div id='answer'>
-        <h1>Here is an answer.</h1>
+      <div id='licenseunauth' className='section' >
+        <h1>Here is an LicenseUnauth.</h1>
         <p>Duis Lorem incididunt anim quis.</p>
-        <Button variant="secondary" href='#anotheranswer' >Living in a shotgun shack.</Button>{' '}
+        <Button variant="secondary" href='#home' >Living in a shotgun shack.</Button>{' '}
+        <Button variant="outline-secondary" className='mybutton' href='#licensepays' >Next</Button>{' '}      
+
       </div>
   );
 }
 
-export default Answer;
+export default LicenseUnauth;
