@@ -101,7 +101,7 @@
   // background-color: wheat;
 }
 
-// SECTIONS
+// GENERAL
 .mycontainer {
   width: 80%;
 }
@@ -111,13 +111,15 @@
 }
 
 .mybutton {
-  margin: 14px;
+  margin: 6px;
 }
 
 #home {
   background-color: #0162a8;
 
 }
+
+// SECTIONS
 
 .section {
   // background-color: #f01e1d;
@@ -130,51 +132,87 @@
   color: white;
 }
 
-#copyrightabout {
+// Getting Started
+#startwhatis {
+  background-color: aquamarine;
+}
+
+#startwhatdoes {
+  background-color: brown;
+}
+
+#startsignup {
   background-color: blueviolet;
 }
 
-#copyrightadvance {
-  background-color: lightcoral;
+#startstatus {
+  background-color: darkslategrey;
 }
 
-#copyrightcheck {
-  background-color: green;
+#startcontract {
+  background-color: darksalmon;
 }
 
-#copyrightipi {
-  background-color: cadetblue;
+#startterminate {
+  background-color: salmon;
+}
+
+// Registration
+#registersong {
+  background-color: darkgoldenrod;
+}
+
+#registerworks {
+  background-color: firebrick;
+}
+
+#registerchange {
+  background-color: darkgreen;
+}
+
+// Copyright
+#copyrightperformance {
+  background-color: brown;
 }
 
 #copyrightpaid {
   background-color: darkorchid;
 }
 
-#copyrightperformance {
-  background-color: brown;
+#copyrightcheck {
+  background-color: green;
+}
+
+#copyrightabout {
+  background-color: blueviolet;
+}
+
+#copyrightipi {
+  background-color: cadetblue;
 }
 
 #copyrightroyalty {
   background-color: darkgoldenrod;
 }
 
-#licenseisrc {
-  background-color: chocolate;
+#copyrightadvance {
+  background-color: lightcoral;
 }
 
+// License
 #licensepays {
   background-color: sandybrown;
+}
+
+#licenseisrc {
+  background-color: chocolate;
 }
 
 #licenseunauth {
   background-color: darkgoldenrod;
 }
 
-
-#publisherforeign {
-  background-color: burlywood;
-}
-
+// Publisher
 #publisherneed {
   background-color: cadetblue;
 }
@@ -183,10 +221,59 @@
   background-color: blanchedalmond;
 }
 
+#publisherforeign {
+  background-color: burlywood;
+}
+
 #publisherregister {
   background-color: coral;
 }
 
+// BMI and you
+#youartist {
+  background-color: chocolate;
+}
+
+#youlive {
+  background-color: mediumorchid;
+}
+
+#youlearn {
+  background-color: khaki;
+}
+
+#youbetter {
+  background-color: gold;
+}
+
+#youstatement {
+  background-color: indianred;
+}
+
+#youcatalog {
+  background-color: lightseagreen;
+}
+
+#youestate {
+  background-color: darkviolet;
+}
+
+// Online services
+#servicesonline {
+  background-color: greenyellow;
+}
+
+#servicescontact {
+  background-color: hotpink;
+}
+
+#servicesbank {
+  background-color: dodgerblue;
+}
+
+#servicessongview {
+  background-color: maroon;
+}
 
 // TEST SECTIONS
 #question {

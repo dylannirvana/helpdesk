@@ -1,16 +1,15 @@
-// import logo from './logo.svg';
-import './App.scss';
 import { Button } from 'react-bootstrap';
 
-
-function Answer() {
+function YouEstate() {
   return (
-      <div id='answer'>
-        <h1>Here is an answer.</h1>
+      <div id='youestate' className='section' >
+        <h1>Here is YouEstate.</h1>
         <p>Duis Lorem incididunt anim quis.</p>
-        <Button variant="secondary" href='#anotheranswer' >Living in a shotgun shack.</Button>{' '}
+        <Button variant="secondary" className='mybutton' href='#home' >Living in a shotgun shack.</Button>{' '}
+        {/* Removing next button reinforces that you are the end of a section */}
+
       </div>
   );
 }
 
-export default Answer;
+export default YouEstate;

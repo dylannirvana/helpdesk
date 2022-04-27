@@ -14,12 +14,12 @@ function Topics() {
               <Accordion.Item className='' eventKey='0'>
                 <Accordion.Header>Getting Started?</Accordion.Header>
                 <Accordion.Body>
-                <Button variant="secondary" className="d-grid gap-2 mybutton orientation" size="lg" href='#mycarousel' >What is BMI?</Button>{' '}      
-                <Button variant="secondary" className="d-grid gap-2 mybutton orientation" size="lg" href='#ipi' >What does BMI do?</Button>{' '}      
-                <Button variant="secondary" className="d-grid gap-2 mybutton orientation" size="lg" href='#ipi' >Signing up with BMI</Button>{' '}      
-                <Button variant="secondary" className="d-grid gap-2 mybutton orientation" size="lg" href='#ipi' >Application status</Button>{' '}      
-                <Button variant="secondary" className="d-grid gap-2 mybutton orientation" size="lg" href='#ipi' >Understanding your Contract</Button>{' '}      
-                <Button variant="secondary" className="d-grid gap-2 mybutton orientation" size="lg" href='#ipi' >Terminating your Contract</Button>{' '}      
+                <Button variant="secondary" className="d-grid gap-2 mybutton orientation" size="lg" href='#startwhatis' >What is BMI?</Button>{' '}      
+                <Button variant="secondary" className="d-grid gap-2 mybutton orientation" size="lg" href='#startwhatdoes' >What does BMI do?</Button>{' '}      
+                <Button variant="secondary" className="d-grid gap-2 mybutton orientation" size="lg" href='#startsignup' >Signing up with BMI</Button>{' '}      
+                <Button variant="secondary" className="d-grid gap-2 mybutton orientation" size="lg" href='#startstatus' >Application status</Button>{' '}      
+                <Button variant="secondary" className="d-grid gap-2 mybutton orientation" size="lg" href='#startcontract' >Understanding your Contract</Button>{' '}      
+                <Button variant="secondary" className="d-grid gap-2 mybutton orientation" size="lg" href='#startterminate' >Terminating your Contract</Button>{' '}      
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
@@ -29,9 +29,9 @@ function Topics() {
                 <Accordion.Header>Registration and Catalog</Accordion.Header>
                 <Accordion.Body>
                   {/* REGISTRATION AND CATALOG */}
-                  <Button variant="secondary" className="d-grid gap-2 mybutton registration" size="lg" href='#ipi' >Registering my songs</Button>{' '}      
-                  <Button variant="secondary" className="d-grid gap-2 mybutton registration" size="lg" href='#ipi' >My Catalog of Works</Button>{' '}      
-                  <Button variant="secondary" className="d-grid gap-2 mybutton registration" size="lg" href='#ipi' >Making changes</Button>{' '}   
+                  <Button variant="secondary" className="d-grid gap-2 mybutton registration" size="lg" href='#registersong' >Registering my songs</Button>{' '}      
+                  <Button variant="secondary" className="d-grid gap-2 mybutton registration" size="lg" href='#registerworks' >My Catalog of Works</Button>{' '}      
+                  <Button variant="secondary" className="d-grid gap-2 mybutton registration" size="lg" href='#registerchange' >Making changes</Button>{' '}   
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
@@ -82,13 +82,13 @@ function Topics() {
                 <Accordion.Header>BMI and You</Accordion.Header>
                 <Accordion.Body>
                   {/* BMI AND YOU */}
-                  <Button variant="secondary" className="d-grid gap-2 mybutton you" size="lg" href='#ipi' >I am an Artist too</Button>{' '} 
-                  <Button variant="secondary" className="d-grid gap-2 mybutton you" size="lg" href='#ipi' >BMI Live!</Button>{' '} 
-                  <Button variant="secondary" className="d-grid gap-2 mybutton you" size="lg" href='#ipi' >I want to learn</Button>{' '} 
-                  <Button variant="secondary" className="d-grid gap-2 mybutton you" size="lg" href='#ipi' >Getting better</Button>{' '} 
-                  <Button variant="secondary" className="d-grid gap-2 mybutton you" size="lg" href='#ipi' >My Statements</Button>{' '} 
-                  <Button variant="secondary" className="d-grid gap-2 mybutton you" size="lg" href='#ipi' >My Catalog</Button>{' '} 
-                  <Button variant="secondary" className="d-grid gap-2 mybutton you" size="lg" href='#ipi' >Estate, heirs</Button>{' '} 
+                  <Button variant="secondary" className="d-grid gap-2 mybutton you" size="lg" href='#youartist' >I am an Artist too</Button>{' '} 
+                  <Button variant="secondary" className="d-grid gap-2 mybutton you" size="lg" href='#youlive' >BMI Live!</Button>{' '} 
+                  <Button variant="secondary" className="d-grid gap-2 mybutton you" size="lg" href='#youlearn' >I want to learn</Button>{' '} 
+                  <Button variant="secondary" className="d-grid gap-2 mybutton you" size="lg" href='#youbetter' >Getting better</Button>{' '} 
+                  <Button variant="secondary" className="d-grid gap-2 mybutton you" size="lg" href='#youstatement' >My Statements</Button>{' '} 
+                  <Button variant="secondary" className="d-grid gap-2 mybutton you" size="lg" href='#youcatalog' >My Catalog</Button>{' '} 
+                  <Button variant="secondary" className="d-grid gap-2 mybutton you" size="lg" href='#youestate' >Estate, heirs</Button>{' '} 
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
@@ -98,10 +98,10 @@ function Topics() {
                 <Accordion.Header>Online Services</Accordion.Header>
                 <Accordion.Body>
                   {/* ONLINE SERVICES */}
-                  <Button variant="secondary" className="d-grid gap-2 mybutton services" size="lg" href='#ipi' >Online services</Button>{' '} 
-                  <Button variant="secondary" className="d-grid gap-2 mybutton services" size="lg" href='#ipi' >Update contact information</Button>{' '} 
-                  <Button variant="secondary" className="d-grid gap-2 mybutton services" size="lg" href='#ipi' >Update banking information</Button>{' '} 
-                  <Button variant="secondary" className="d-grid gap-2 mybutton services" size="lg" href='#ipi' >Songview!</Button>{' '} 
+                  <Button variant="secondary" className="d-grid gap-2 mybutton services" size="lg" href='#servicesonline' >Online services</Button>{' '} 
+                  <Button variant="secondary" className="d-grid gap-2 mybutton services" size="lg" href='#servicescontact' >Update contact information</Button>{' '} 
+                  <Button variant="secondary" className="d-grid gap-2 mybutton services" size="lg" href='#servicesbank' >Update banking information</Button>{' '} 
+                  <Button variant="secondary" className="d-grid gap-2 mybutton services" size="lg" href='#servicessongview' >Songview!</Button>{' '} 
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>

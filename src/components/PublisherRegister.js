@@ -1,15 +1,15 @@
 import { Button } from 'react-bootstrap';
 
-function PublisherRegiser() {
+function PublisherRegister() {
   return (
-      <div id='PublisherRegiser' className='section' >
+      <div id='publisherregister' className='section' >
         <h1>Here is PublisherRegiser.</h1>
         <p>Duis Lorem incididunt anim quis.</p>
         <Button variant="secondary" href='#home' >Living in a shotgun shack.</Button>{' '}
-        <Button variant="outline-secondary" className='mybutton' href='#publisherneed' >Next</Button>{' '}      
+        {/* Removing next button reinforces that you are the end of a section */}
 
       </div>
   );
 }
 
-export default PublisherRegiser;
+export default PublisherRegister;

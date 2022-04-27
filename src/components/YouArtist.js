@@ -1,16 +1,15 @@
-// import logo from './logo.svg';
-import './App.scss';
 import { Button } from 'react-bootstrap';
 
-
-function Answer() {
+function YouArtist() {
   return (
-      <div id='answer'>
-        <h1>Here is an answer.</h1>
+      <div id='youartist' className='section' >
+        <h1>Here is YouArtist.</h1>
         <p>Duis Lorem incididunt anim quis.</p>
-        <Button variant="secondary" href='#anotheranswer' >Living in a shotgun shack.</Button>{' '}
+        <Button variant="secondary" className='mybutton' href='#home' >Living in a shotgun shack.</Button>{' '}
+        <Button variant="outline-secondary" className='mybutton' href='#youlive' >Next</Button>{''}
+      
       </div>
   );
 }
 
-export default Answer;
+export default YouArtist;

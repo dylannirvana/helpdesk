@@ -6,7 +6,7 @@ function LicenseUnauth() {
         <h1>Here is an LicenseUnauth.</h1>
         <p>Duis Lorem incididunt anim quis.</p>
         <Button variant="secondary" href='#home' >Living in a shotgun shack.</Button>{' '}
-        <Button variant="outline-secondary" className='mybutton' href='#licensepays' >Next</Button>{' '}      
+        {/* Removing next button reinforces that you are the end of a section */}
 
       </div>
   );
