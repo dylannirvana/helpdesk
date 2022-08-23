@@ -34,6 +34,10 @@
 // }
 
 // BOOTSTRAP OVERRIDES
+
+// Button
+
+// Accordion
 .accordion {
   justify-content: center;
 }
@@ -79,7 +83,7 @@
 
 // CAROUSEL 
 .testCarousel {
-  background-color: plum;
+  // background-color: plum;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -114,10 +118,21 @@
   margin: 6px;
 }
 
+.flex {
+  display: flex;
+}
+
 #home {
   background-color: #0162a8;
 
 }
+
+// TODO: make boxs for color palette
+// COLOR PALETTE
+// #box {
+//   height: 100px;
+//   width: 100px;
+// }
 
 // SECTIONS
 
@@ -134,7 +149,7 @@
 
 // Getting Started
 #startwhatis {
-  background-color: aquamarine;
+  background-color: darkgoldenrod;
 }
 
 #startwhatdoes {
@@ -162,7 +177,7 @@
   background-color: darkgoldenrod;
 }
 
-#registerworks {
+#registercatalog {
   background-color: firebrick;
 }
 
@@ -218,7 +233,7 @@
 }
 
 #publishermma {
-  background-color: blanchedalmond;
+  background-color: brown;
 }
 
 #publisherforeign {
@@ -393,3 +408,4 @@
   font-size: 12pt;
   text-decoration: none;
 }
+
