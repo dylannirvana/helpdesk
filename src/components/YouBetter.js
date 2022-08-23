@@ -8,8 +8,10 @@ function YouBetter() {
       <div id='carousel2' class='testCarousel'>
         <Carousel indicators={true} interval={null} >
           <Carousel.Item id='slide1' >
-            <h1>How to become a better songwriter</h1>
+            <h1>Become a better songwriter</h1>
             <p>Occaecat eu occaecat ad voluptate consectetur ipsum aliquip quis labore ex ullamco. Fugiat id est exercitation labore laboris. Proident ullamco laborum ut cillum. Commodo mollit nisi pariatur occaecat et ad magna ea enim elit velit fugiat. Dolore excepteur aliquip veniam aute et deserunt magna Lorem cillum id. Qui laborum in ad amet.</p>
+
+            <Button variant="outline-secondary" href='#youstatement' >My statements</Button>{' '}
 
           </Carousel.Item>
 
@@ -19,7 +21,6 @@ function YouBetter() {
 
             <Button variant="secondary" href='https://www.bmi.com/' >Join BMI</Button>{' '}
 
-            <Button variant="outline-secondary" href='#youstatement' >My statements</Button>{' '}
           </Carousel.Item>
 
         </Carousel>

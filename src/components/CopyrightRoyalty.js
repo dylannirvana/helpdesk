@@ -14,6 +14,8 @@ function CopyrightRoyalty() {
                 <h2>Who handles what?</h2>
                 <p>Occaecat eu occaecat ad voluptate consectetur ipsum aliquip quis labore ex ullamco. Fugiat id est exercitation labore laboris.  </p>
 
+                <Button variant="outline-secondary" className='mybutton' href='#copyrightadvance' >Can I get an advance?</Button>{' '}
+
                 {/* <Button variant="secondary" href='https://applications.bmi.com/Security/' >Register with BMI</Button>{' '}       */}
             </Carousel.Item>
 
@@ -35,11 +37,7 @@ function CopyrightRoyalty() {
      
                 {/* <Button variant="secondary" className='mybutton' href='https://applications.bmi.com/Security/' >My catalog / Join</Button>{' '} */}
 
-                <div className=''>
-                  {/* <Button variant="outline-secondary" className='mybutton' href='#home' >More questions?</Button>{' '} */}
-
-                  <Button variant="outline-secondary" className='mybutton' href='#copyrightadvance' >Can I get an advance?</Button>{' '}
-                </div>
+               
             </Carousel.Item>
 
         </Carousel>

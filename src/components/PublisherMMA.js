@@ -11,6 +11,12 @@ function PublisherMMA() {
             <h1>The Music Modernization Act</h1>
             <p>Occaecat eu occaecat ad voluptate consectetur ipsum aliquip quis labore ex ullamco. Fugiat id est exercitation labore laboris. Proident ullamco laborum ut cillum. Commodo mollit nisi pariatur occaecat et ad magna ea enim elit velit fugiat. Dolore excepteur aliquip veniam aute et deserunt magna Lorem cillum id. Qui laborum in ad amet.</p>
 
+            <div className=''>
+              <Button variant="outline-secondary" className='mybutton' href='#publisherneed' >What does a publisher do?</Button>{' '}
+
+              <Button variant="outline-secondary" className='mybutton' href='#publisherforeign' >Neighbouring Rights</Button>{' '}
+            </div>
+
           </Carousel.Item>
          
           <Carousel.Item id='slide2' >
@@ -26,11 +32,7 @@ function PublisherMMA() {
             <h2>Harry Fox Agency</h2>
             <p>Incididunt elit laborum enim velit laborum nostrud id fugiat qui. Veniam pariatur enim non reprehenderit nisi laborum laboris amet dolore commodo adipisicing dolore est exercitation.</p>
 
-            <div className=''>
-              <Button variant="outline-secondary" className='mybutton' href='#publisherneed' >What does a publisher do?</Button>{' '}
-
-              <Button variant="outline-secondary" className='mybutton' href='#publisherforeign' >Neighbouring Rights</Button>{' '}
-            </div>
+            
 
           </Carousel.Item>
 

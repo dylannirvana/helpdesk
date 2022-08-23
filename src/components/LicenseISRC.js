@@ -15,6 +15,8 @@ function LicenseISRC() {
               <h2>Who uses the ISWC?</h2>
               <p>Occaecat eu occaecat ad voluptate consectetur ipsum aliquip quis labore ex ullamco. Fugiat id est exercitation labore laboris.  </p>
 
+              <Button variant="outline-secondary" className='mybutton' href='#licenseunauth' >Unauthorized use</Button>{' '}
+
               {/* <Button variant="secondary" href='https://applications.bmi.com/Security/' >Register with BMI</Button>{' '}       */}
             </Carousel.Item>
 
@@ -32,7 +34,6 @@ function LicenseISRC() {
             <Carousel.Item id='slide3' >
               <h1>Who does what</h1>
               <p>Incididunt elit laborum enim velit laborum nostrud id fugiat qui. Veniam pariatur enim non reprehenderit nisi laborum laboris amet dolore commodo adipisicing dolore est exercitation. Ipsum in qui incididunt exercitation eu sunt excepteur. Commodo ad nulla proident eu et.</p>
-              <Button variant="secondary" href='#top' >My catalog</Button>{' '}
             </Carousel.Item>
 
             <Carousel.Item id='slide4' >
@@ -42,11 +43,9 @@ function LicenseISRC() {
 
               {/* <Button variant="secondary" className='mybutton' href='https://www.bmi.com/news/advice' >My catalog / Join</Button>{' '} */}
 
-              <div className=''>
-                {/* <Button variant="outline-secondary" className='mybutton' href='#home' >More questions?</Button>{' '} */}
+              <Button variant="secondary" href='#top' >My catalog</Button>{' '}
 
-                <Button variant="outline-secondary" className='mybutton' href='#licenseunauth' >Unauthorized use</Button>{' '}
-              </div>
+            
             </Carousel.Item>
 
           </Carousel>

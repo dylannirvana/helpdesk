@@ -10,7 +10,8 @@ function CopyrightIPI() {
               <Carousel.Item id='slide1' >                
                   <h1>Tracking the Writer and Publisher IPI</h1>
                   <p>Occaecat eu occaecat ad voluptate consectetur ipsum aliquip quis labore ex ullamco. Fugiat id est exercitation labore laboris. Proident ullamco laborum ut cillum. Commodo mollit nisi pariatur occaecat et ad magna ea enim elit velit fugiat. </p>
-                  <Button variant="secondary" href='https://applications.bmi.com/Security/' >My IPI number</Button>{' '}      
+                  <Button variant="outline-secondary" className='mybutton' href='#copyrightroyalty'>What are royalties?</Button>{' '}
+
               </Carousel.Item>
 
               <Carousel.Item id='slide2' >              
@@ -27,8 +28,8 @@ function CopyrightIPI() {
 
                   <div className=''>
                     {/* <Button variant="outline-secondary" className='mybutton' href='#home' >More questions?</Button>{' '} */}
+                    <Button variant="secondary" href='https://applications.bmi.com/Security/' >My IPI number</Button>{' '}      
 
-                    <Button variant="outline-secondary" className='mybutton' href='#copyrightroyalty'>What are royalties?</Button>{' '}
                   </div>
               </Carousel.Item>
 

@@ -13,6 +13,11 @@ function PublisherNeed() {
            
             <h2>What does a publisher do?</h2>
             <p>Occaecat eu occaecat ad voluptate consectetur ipsum aliquip quis labore ex ullamco. Fugiat id est exercitation labore laboris. </p>
+
+            <div>
+              <Button variant="secondary" href='https://www.bmi.com/' >Register as a publisher</Button>{' '}      
+              <Button variant="outline-secondary" href='#publishermma' >The Music Modernization Act</Button>{' '}      
+            </div>
             
           </Carousel.Item>
 
@@ -28,8 +33,6 @@ function PublisherNeed() {
             <h1>Should I self-publish?</h1>
             <p>Aliquip velit anim occaecat culpa aliquip qui. Do dolor adipisicing mollit ea excepteur deserunt irure consectetur occaecat est. Ad nisi ullamco commodo laborum. Occaecat officia ut veniam commodo do minim proident mollit nisi ad exercitation minim.</p>
 
-            <Button variant="secondary" href='https://www.bmi.com/' >Register as a publisher</Button>{' '}      
-            <Button variant="outline-secondary" href='#publishermma' >The Music Modernization Act</Button>{' '}      
           </Carousel.Item>
 
       </Carousel>
