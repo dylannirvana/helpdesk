@@ -26,7 +26,7 @@ function CopyrightRoyalty() {
             <Carousel.Item id='slide3' >
                 <h1>Tracking your songs with the ISWC</h1>
                 <p>Incididunt elit laborum enim velit laborum nostrud id fugiat qui. Veniam pariatur enim non reprehenderit nisi laborum laboris amet dolore commodo adipisicing dolore est exercitation. Ipsum in qui incididunt exercitation eu sunt excepteur. Commodo ad nulla proident eu et.</p>
-                <Button variant="secondary" href='#top' >My catalog</Button>{' '}      
+                {/* <Button variant="secondary" href='#top' >My catalog</Button>{' '}       */}
             </Carousel.Item>
 
             <Carousel.Item id='slide4' >

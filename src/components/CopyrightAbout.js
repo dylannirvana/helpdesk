@@ -14,7 +14,7 @@ function CopyrightAbout() {
           </Carousel.Item>
 
           <Carousel.Item id='slide2' >
-            <h1>Song divides in two: Composition and Masters</h1>
+            <h1>The Composition and the Sound Recording</h1>
             <p>Incididunt elit laborum enim velit laborum nostrud id fugiat qui. Veniam pariatur enim non reprehenderit nisi laborum laboris amet dolore commodo adipisicing dolore est exercitation. Ipsum in qui incididunt exercitation eu sunt excepteur. Commodo ad nulla proident eu et.</p>
           
           </Carousel.Item>
@@ -22,14 +22,14 @@ function CopyrightAbout() {
           <Carousel.Item id='slide3' >                
             <h1>Tracking the Composition ISWC</h1>
             <p>Aliquip velit anim occaecat culpa aliquip qui. Do dolor adipisicing mollit ea excepteur deserunt irure consectetur occaecat est. Ad nisi ullamco commodo laborum. Occaecat officia ut veniam commodo do minim proident mollit nisi ad exercitation minim.</p>
-            <Button variant="secondary" href='#top' >My catalog</Button>{' '}      
+            {/* <Button variant="secondary" href='#top' >My catalog</Button>{' '}       */}
           </Carousel.Item>
           
           <Carousel.Item id='slide4' >                
             <h1>Tracking the Masters ISRC</h1>
             <p>Aliquip velit anim occaecat culpa aliquip qui. Do dolor adipisicing mollit ea excepteur deserunt irure consectetur occaecat est. Ad nisi ullamco commodo laborum. Occaecat officia ut veniam commodo do minim proident mollit nisi ad exercitation minim.</p>
 
-            <Button variant="outline-secondary" className='mybutton' href='#copyrightipi' >Composition divides in two</Button>{' '}      
+            <Button variant="outline-secondary" className='mybutton' href='#copyrightipi' >What is the IPI number?</Button>{' '}      
           </Carousel.Item>
       </Carousel>
 

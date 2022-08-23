@@ -12,9 +12,9 @@ function RegisterCatalog() {
         {/* <Button variant="secondary" className='mybutton' href='https://applications.bmi.com/Security/' >Register my songs</Button>{' '} */}
 
         <div className='flex'>
-          <Button variant="outline-secondary" className='mybutton' href='#home' >Register my songs</Button>{' '}
+          <Button variant="secondary" className='mybutton' href='https://bmi.com' >See my catalog</Button>{' '}
 
-          <Button variant="outline-secondary" className='mybutton' href='#registerchange' >My catalog of works</Button>{' '}
+          <Button variant="outline-secondary" className='mybutton' href='#registerchange' >Making changes to your catalog</Button>{' '}
         </div>
         
       </div>
